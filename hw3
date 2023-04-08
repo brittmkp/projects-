@@ -1,0 +1,31 @@
+import java.util.*;
+ public class Main {
+  public static void main(String[] args) { Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the register number: "); int num = sc.nextInt();
+    if(num>=0 && num<=9){ if(num == 0){
+    System.out.println("Black"); }
+    else if(num == 1){ System.out.println("Brown");
+      }
+    else if(num == 2){
+    System.out.println("Red"); }
+    else if(num == 3){ System.out.println("Orange");
+    }
+    else if(num == 4){
+    System.out.println("Yellow");
+    }
+    else if(num == 5){
+    System.out.println("Green"); }
+    else if(num == 6){ System.out.println("Blue");
+    }
+    else if(num == 7){
+    System.out.println("Violet"); }
+   else if(num == 8){ System.out.println("Grey");
+   }
+    else if(num == 9){
+    System.out.println("White"); }
+    }
+    else{
+    System.out.println(
+    "The number was entered is not within the 0 through 9 range" );
+  } }
+}
